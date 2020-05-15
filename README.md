@@ -32,12 +32,8 @@ beds, bedrooms, bathrooms ,review_Scores_rating,host_is_superhost, availability_
 (Thefactors are totally assumed which i think will be best related with price)
 
 
-# 3 Major business questions answered
+ 3 Major business questions answered
 1. What factors contribute to pricing in various cities.
 2. WHat factors contribute the most for superhost
 3.what major factor given the above factors strongly correlates with the price
 
-1.
-The code focusses on cleaning the data
-visulaizing various patterns
-Calculating R squared value on various factors which i found most closely to affect price

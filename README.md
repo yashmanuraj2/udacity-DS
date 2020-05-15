@@ -1,7 +1,7 @@
 # udacity-DS
 MOTIVATION
 
-The aim of this project is to analyze the prices of airbnb hotels, and various factors related to it. h
+The aim of this project is to analyze the various columns of airbnb hotels in boston, and various factors related to it. 
 How the prices vry from city to city and what factors affect the prices and what factors contribute to superhost
 
 Libraries used:
@@ -10,7 +10,7 @@ pandas
 scikit learn
 seaborn
 
-3 Major business questions answered :
+
 
 DATA CLEANING :
 1.

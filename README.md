@@ -10,6 +10,7 @@ pandas
 scikit learn
 seaborn
 
+3 Major business questions answered :
 
 DATA CLEANING :
 1.
@@ -25,7 +26,18 @@ how many columns contain values with 75% data missing
 
 2. DATA VISUALIZATION
 
-2.1 Comparing prices vs accomdates
+3 DATA MODELLING
+.calculating the r value for price given the follwing factors:-
+beds, bedrooms, bathrooms ,review_Scores_rating,host_is_superhost, availability_3655
+(Thefactors are totally assumed which i think will be best related with price)
+
+
+# 3 Major business questions answered
+1. What factors contribute to pricing in various cities.
+2. WHat factors contribute the most for superhost
+3.what major factor given the above factors strongly correlates with the price
+
+1.
 The code focusses on cleaning the data
 visulaizing various patterns
 Calculating R squared value on various factors which i found most closely to affect price

@@ -1,39 +1,82 @@
 # udacity-DS
-MOTIVATION
+TI want to thank udacity for providing me this opportunity to write a  data science blog post on analysis of airbnb homes in ny boston
 
-The aim of this project is to analyze the various columns of airbnb hotels in boston, and various factors related to it. 
-How the prices vry from city to city and what factors affect the prices and what factors contribute to superhost
+THE project follows CRIPS DM process : 
+The readme contains a go through of the projet.
 
-Libraries used:
-numpy
-pandas 
-scikit learn
-seaborn
+1> Business Understanding
+2> Data Understanding
+3>Data PRepration 
+4> Modelling
+5> Evaluation
+
+!> Business Understanding : 
+The main focus of this project is to check what affects the superhost and what affects the price?
+How well we can predict the price and check what factors strongly relate with the superhost
+
+2>Data Understanding :
+ The data contains 3 Datasets mainly calendar listings and reviews. We have explored listings dataset.
+ The listings data set contains 3585 rows and 95 columns
+ Columns with 75 % missing values are :
+{'has_availability', 'square_feet', 'neighbourhood_group_cleansed', 'weekly_price', 'license', 'jurisdiction_names', 'monthly_price'}
+
+2> DAta PRepration :
+WE see that many columns contain special characters, NAn values  The data is filtered for the same and used in the training of the model
+The following list contains columns with their Nan values respectively
+id 0
+scrape_id 0
+host_id 0
+host_response_rate 471
+host_acceptance_rate 471
+host_listings_count 0
+host_total_listings_count 0
+neighbourhood_group_cleansed 3585
+latitude 0
+longitude 0
+accommodates 0
+bathrooms 14
+bedrooms 10
+beds 9
+square_feet 3529
+price 0
+weekly_price 2693
+guests_included 0
+minimum_nights 0
+maximum_nights 0
+has_availability 3585
+availability_30 0
+availability_60 0
+availability_90 0
+availability_365 0
+number_of_reviews 0
+review_scores_rating 813
+review_scores_accuracy 823
+review_scores_cleanliness 818
+review_scores_checkin 820
+review_scores_communication 818
+review_scores_location 822
+review_scores_value 821
+license 3585
+jurisdiction_names 3585
+calculated_host_listings_count 0
+reviews_per_month 756
+
+2. THe amenities in any room are an important aspect of the quality of the hotel.
+ THe amenities are stored in a separate list and checked with host_is_superhost with their correlation
+
+3. What kind of reviews affect the capability of a host to be a superhost 
+ Some basic data exploration is done on the price and other  types of houses
+We find that for amenities Parking has the strongest correlation with superhosts 
+Whereas for Reviews values and review ratings
+
+4>> MODELLING :
+
+THe data is split into train and test data with 70  % and 30 % split
+The model used is linear regression model with random state of 42
+Te r squared value on training data was 0.319 while on test data was 0.229
 
 
 
-DATA CLEANING :
-1.
-
-1.1.The Data is checked for missing values 
-how many columns contain values with 75% data missing 
-
-1.2 Removal of null values from columns taken into consideration
-
-1.3 removing $ sign from various  price columns
-
-1.4. removing duplicate cities from city column
-
-2. DATA VISUALIZATION
-
-3 DATA MODELLING
-.calculating the r value for price given the follwing factors:-
-beds, bedrooms, bathrooms ,review_Scores_rating,host_is_superhost, availability_3655
-(Thefactors are totally assumed which i think will be best related with price)
 
 
- 3 Major business questions answered
-1. What factors contribute to pricing in various cities.
-2. WHat factors contribute the most for superhost
-3.what major factor given the above factors strongly correlates with the price
 

@@ -2,7 +2,7 @@
 
 
 TI want to thank udacity for providing me this opportunity to write a  data science blog post on analysis of airbnb homes in ny boston
-THE project follows CRIPS DM process : 
+THE project follows CRIPS DM process 
 The readme contains a go through of the projet.
 
 1> Business Understanding
@@ -22,7 +22,15 @@ sklearn.metrics
  
  MOTIVATION : 
  Airbnb is a popular housing rental site  , the data set for Boston City contains a lot of columns and information thorugh which various inferences and shortcomings can be   drawn to further improve the business model. I undertook this project due to the huge amount of data the set contains and the various scope it has in analysing the various aspects of it .
- 
+
+The Repository contains 3 files :
+
+1. DSProject.ipynb : 
+   Python file which contains all the data anlysis modelling and visualisation of the Airbnb Listings data set
+2.listings.csv : 
+  Csv file containing information on the information of various listings spread across the city of Boston ,Ny
+3. Readme.md :
+  Readme contains the go through of the project motivation and various libraries used in the the project.
  
 
 

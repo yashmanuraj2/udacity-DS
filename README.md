@@ -1,7 +1,7 @@
-# udacity-DS
+#       udacity-Airbnb Boston , NY
 
 
-TI want to thank udacity for providing me this opportunity to write a  data science blog post on analysis of airbnb homes in ny boston
+I want to thank udacity for providing me this opportunity to write a  data science blog post on analysis of airbnb homes in ny boston
 THE project follows CRIPS DM process 
 The readme contains a go through of the projet.
 
@@ -10,7 +10,7 @@ The readme contains a go through of the projet.
 3>Data PRepration 
 4> Modelling
 5> Evaluation
-
+#      LIBRARIES
 The following libraries were used in the development of the project:
 numpy
  pandas 
@@ -20,7 +20,7 @@ klearn.model_selection,  train_test_split
 sklearn.metrics 
  seaborn 
  
- MOTIVATION : 
+ #      MOTIVATION : 
  Airbnb is a popular housing rental site  , the data set for Boston City contains a lot of columns and information thorugh which various inferences and shortcomings can be   drawn to further improve the business model. I undertook this project due to the huge amount of data the set contains and the various scope it has in analysing the various aspects of it .
 
 The Repository contains 3 files :
@@ -93,7 +93,7 @@ reviews_per_month 756
 We find that for amenities Parking has the strongest correlation with superhosts 
 Whereas for Reviews values and review ratings
 
-4>> MODELLING :
+#      MODELLING :
 
 THe data is split into train and test data with 70  % and 30 % split
 The model used is linear regression model with random state of 42
